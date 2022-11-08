@@ -1,25 +1,96 @@
-body {
-  background-color: #FFF5E4;
-}
-
-hr {
-  color: #FFD1D1;
-  width: 20%;
-  border-style: dotted none none none;
-  border-width: thick;
-
-
-}
-
-img {
-  height: 250px;
+.squear0 {
+  margin: 0;
+  background-color: #DEF5E5;
+  position: relative;
 }
 
 h1 {
-    color: #FF9494
+    font-size: 5.625em;
+    margin: 100px auto 0 auto;
+    font-family: "Sacramento", cursive;
+    color: #8EC3B0;
+    line-height: 2;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #8EC3B0;
+  font-weight: normal;
 }
 
 h3 {
-  color: #FF9494
+  font-family: "Montserrat", sans-serif;
+  color: #9ED5C5;
+}
+
+.squear1 {
+  /* background-color: #DEF5E5; */
 
 }
+
+.squear2 {
+
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+
+.bottom-cloud {
+  position: absolute;
+  left: 23%;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: relative;
+  left: 300px;
+  top: 50px;
+}
+
+.mike-photo {
+  width: 10%;
+}
+
+hr {
+  color: #BCEAD5;
+  width: 5%;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 8px;
+
+
+}
+
+.code-photo {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.basketball-photo {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+/* just training */
+
+/* .coding-paragraph {
+  clear: left;
+}
+
+.basketball-paragraph {
+  clear: right;
+} */
