@@ -32,39 +32,60 @@ h3 {
 .squear2 {
   background-color: #DEF5E5;
   margin: 50px auto 0 auto;
+  padding: 20px 0 0;
 }
 
 body {
+  color: #40514E;
   margin: 0;
   text-align: center;
   font-family: "Merriweather", serif;
 }
 
+p {
+  line-height: 2;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  color: #8EC3B0;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+.contact-massege {
+  width: 35%;
+  margin: auto auto 100px;
+}
 
 .bottom-cloud {
   position: absolute;
-  left: 23%;
+  left: 17%;
   bottom: 300px;
 }
 
 .top-cloud {
   position: relative;
-  left: 300px;
+  left: 350px;
   top: 50px;
 }
 
 .mike-photo {
-  margin-top: 50px;
   width: 15%;
+  margin-top: 100px;
 }
 
 hr {
-  color: #BCEAD5;
+  color: #EAF6F6 6px;
   width: 5%;
   border-style: none;
   border-top-style: dotted;
   border-width: 8px;
-
+  margin: 100px auto;
 
 }
 
@@ -84,7 +105,17 @@ hr {
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
-  line-height: 2;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.author {
+  margin: 16px auto 0;
+  font-size: 1rem;
+  padding: 10px 0 20px;
 }
 
 /* just training */
@@ -107,8 +138,8 @@ hr {
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family: Arial;
-  color: #17805a;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
